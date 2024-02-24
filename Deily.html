@@ -12,6 +12,11 @@
           height: 100vh; /* Esto centra la imagen verticalmente en la pantalla */
       }
 
+      .imagen-pequena {
+            max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+            max-height: 100%; /* Ajusta el tamaño máximo de la imagen al alto del contenedor */
+      }
+
       .boton {
             display: inline-block;
             padding: 10px 20px;
@@ -32,14 +37,17 @@
     <title>Quiz 1 Programacion Web Deily</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body style="background-color:magenta;">
+  <body style="background-color: ;">
     <center><h1>¡Hi everyone!</h1></center>
-    <a href="Jorge.html" class="boton">Haz clic aquí, please</a>
-    <!--<h1><a href="Jorge.html">Haz clic aquí, por</a></h1>-->
     <br>
+    <!--Agrega el botón para continuar a la siguiente página-->
+    <a href="Jorge.html" class="boton">Haz clic aquí, please</a>
+    <br>
+    <!--Llama la clase mencionada en los estilos y se agrega la imagen-->
     <div class="centrar-imagen">
-    <img src="img/dog1.jpg" alt="Perro">
+    <img src="img/dog1.jpg" alt="Perro" class="imagen-pequena">
     </div>
+    <!--Inserta texto descriptivo de la imágen-->
     <strong><center><p>¡Amo los huskiessss!</p></center></strong>
 	<script src="index.js"></script>
   </body>
