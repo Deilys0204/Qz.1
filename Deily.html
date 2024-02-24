@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+      .centrar-imagen {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh; /* Esto centra la imagen verticalmente en la pantalla */
+      }
+
+      .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: lightskyblue;
+            color: white;
+            border: 2.5px solid blue;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .boton:hover {
+            background-color: blue;
+        }
+    </style>
+    <title>Quiz 1 Programacion Web Deily</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-color: lightpink">
+    <center><h1>¡Hi everyone!</h1></center>
+    <!--Inserta texto descriptivo de la imágen-->
+    <center><p>¡Amo los huskiessss!</p></center>
+    <br>
+    <!--Llama la clase y agrega el botón para continuar a la siguiente página-->
+    <center class="d-flex justify-content-end">
+    <a href="Jorge.html" align="center" class="boton">Haz clic aquí, please</a>
+    </center>
+    <!--Llama la clase mencionada en los estilos y se agrega la imagen-->
+    <div class="centrar-imagen">
+    <img src="img/dog1.jpg" alt="Perro" style="height: 100%; width: 50%; object-fit: cover; margin-top: 50px;">
+    </div>
+  </body>
+</html>
